@@ -1,0 +1,16 @@
+$base-color: #0078aa;
+$primary-color: #3ab4f2;
+$secondary-color: #f2df3a;
+$text-color-light: #fff;
+$text-color-dark: #333;
+$border-dark: rgba($base-color, 0.88);
+
+* {
+  background-color: $base-color;
+  color: $secondary-color;
+  font-family: "Poppins", sans-serif;
+}
+
+.alert {
+  border: 1px solid $border-dark;
+}

@@ -1,0 +1,9 @@
+* {
+  background-color: #0078aa;
+  color: #f2df3a;
+  font-family: "Poppins", sans-serif;
+}
+
+.alert {
+  border: 1px solid rgba(0, 120, 170, 0.88);
+}/*# sourceMappingURL=styles.css.map */
