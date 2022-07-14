@@ -1,6 +1,6 @@
 * {
-  background-color: #06364b;
-  color: #dedccb;
+  background-color: #1aa7ec;
+  color: #1e2f97;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ container {
 
 .social {
   text-align: center;
-  background-color: #dedccb;
+  background-color: #1e2f97;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 50px;
