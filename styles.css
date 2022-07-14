@@ -1,9 +1,33 @@
 * {
-  background-color: #0078aa;
-  color: #f2df3a;
+  background-color: #06364b;
+  color: #dedccb;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.alert {
-  border: 1px solid rgba(0, 120, 170, 0.88);
+container {
+  margin-left: 30px;
+}
+
+.hero {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.hero h1 {
+  text-align: center;
+}
+.hero h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.social {
+  text-align: center;
+  background-color: #dedccb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  font-size: 300%;
 }/*# sourceMappingURL=styles.css.map */

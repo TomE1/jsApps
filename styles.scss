@@ -1,6 +1,6 @@
-$base-color: #0078aa;
+$base-color: #06364b;
 $primary-color: #3ab4f2;
-$secondary-color: #f2df3a;
+$secondary-color: #dedccb;
 $text-color-light: #fff;
 $text-color-dark: #333;
 $border-dark: rgba($base-color, 0.88);
@@ -9,8 +9,31 @@ $border-dark: rgba($base-color, 0.88);
   background-color: $base-color;
   color: $secondary-color;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+container {
+  margin-left: 30px;
 }
 
-.alert {
-  border: 1px solid $border-dark;
+.hero {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.social {
+  text-align: center;
+  background-color: $secondary-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  font-size: 300%;
 }
