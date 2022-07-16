@@ -144,7 +144,7 @@ a {
   height: 600px;
 }
 .showcase .showcase-content {
-  margin-top: 60px;
+  margin-top: 130px;
 }
 
 nav {
@@ -193,6 +193,7 @@ nav-content h1 {
 
 /*  gcf */
 .gcf {
+  background-color: #1850aa;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,6 +204,7 @@ nav-content h1 {
 }
 
 .toggle-container {
+  color: #eaba83;
   display: flex;
   align-items: center;
   margin: 10px 0;
@@ -225,11 +227,11 @@ nav-content h1 {
 }
 
 .toggle:checked + .label {
-  background-color: #e1cdcd;
+  background-color: #eaba83;
 }
 
 .ball {
-  background: #e1cdcd;
+  background: #1850aa;
   height: 34px;
   width: 34px;
   border-radius: 50%;
@@ -304,16 +306,15 @@ nav-content h1 {
 
 /*-- sound effects --*/
 .sounds {
-  background-color: #eaba83;
+  background-color: #e1cdcd;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 25vh;
+  height: 50vh;
   overflow: hidden;
-  margin: 50px;
 }
 
 .btn {
