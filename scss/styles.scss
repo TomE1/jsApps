@@ -170,3 +170,38 @@ nav {
   margin-top: 50px;
   font-size: 300%;
 }
+
+/*-- sound effects --*/
+
+.sounds {
+  background-color: $secondary-color;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 25vh;
+  overflow: hidden;
+  margin: 50px;
+}
+
+.btn {
+  background-color: $primary-color;
+  border-radius: 5px;
+  border: none;
+  color: $light-color;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}

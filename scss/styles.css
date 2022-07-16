@@ -101,8 +101,8 @@
 }
 
 .btn-secondary {
-  background-color: #ff9f33;
-  color: #fff;
+  background-color: #f1d2af;
+  color: #333;
 }
 
 @media (max-width: 700px) {
@@ -123,7 +123,7 @@
 }
 
 body {
-  background-color: #ff8700;
+  background-color: #eaba83;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
@@ -160,7 +160,7 @@ nav li {
   padding: 15px;
 }
 nav a:hover {
-  color: #ff8700;
+  color: #eaba83;
 }
 nav a {
   color: #fff;
@@ -300,4 +300,38 @@ nav-content h1 {
   padding-bottom: 20px;
   margin-top: 50px;
   font-size: 300%;
+}
+
+/*-- sound effects --*/
+.sounds {
+  background-color: #eaba83;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 25vh;
+  overflow: hidden;
+  margin: 50px;
+}
+
+.btn {
+  background-color: #1850aa;
+  border-radius: 5px;
+  border: none;
+  color: #e1cdcd;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
 }/*# sourceMappingURL=styles.css.map */
