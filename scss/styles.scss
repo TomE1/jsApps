@@ -29,6 +29,10 @@ a {
 .showcase {
   @include set-background($primary-color);
   height: 600px;
+
+  .showcase-content {
+    margin-top: 60px;
+  }
 }
 nav {
   display: flex;

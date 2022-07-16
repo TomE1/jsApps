@@ -143,6 +143,9 @@ a {
   color: #fff;
   height: 600px;
 }
+.showcase .showcase-content {
+  margin-top: 60px;
+}
 
 nav {
   display: flex;
