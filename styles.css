@@ -96,13 +96,13 @@
 }
 
 .btn-primary {
-  background-color: #1e65d7;
+  background-color: #f33535;
   color: #fff;
 }
 
 .btn-secondary {
-  background-color: #f1d2af;
-  color: #333;
+  background-color: #45351f;
+  color: #fff;
 }
 
 @media (max-width: 700px) {
@@ -123,7 +123,7 @@
 }
 
 body {
-  background-color: #eaba83;
+  background-color: #e70e0e;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
@@ -139,7 +139,7 @@ a {
 
 /* end global variables */
 .showcase {
-  background-color: #1850aa;
+  background-color: #e70e0e;
   color: #fff;
   height: 600px;
 }
@@ -160,7 +160,7 @@ nav li {
   padding: 15px;
 }
 nav a:hover {
-  color: #eaba83;
+  color: #221a0f;
 }
 nav a {
   color: #fff;
@@ -193,7 +193,7 @@ nav-content h1 {
 
 /*  gcf */
 .gcf {
-  background-color: #1850aa;
+  background-color: #e70e0e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,7 +204,7 @@ nav-content h1 {
 }
 
 .toggle-container {
-  color: #eaba83;
+  color: #221a0f;
   display: flex;
   align-items: center;
   margin: 10px 0;
@@ -217,7 +217,7 @@ nav-content h1 {
 
 .label {
   position: relative;
-  background-color: #e1cdcd;
+  background-color: #fdf9f9;
   border-radius: 50px;
   cursor: pointer;
   display: inline-block;
@@ -227,11 +227,11 @@ nav-content h1 {
 }
 
 .toggle:checked + .label {
-  background-color: #eaba83;
+  background-color: #221a0f;
 }
 
 .ball {
-  background: #1850aa;
+  background: #e70e0e;
   height: 34px;
   width: 34px;
   border-radius: 50%;
@@ -297,7 +297,7 @@ nav-content h1 {
 /*  social */
 .social {
   text-align: center;
-  background-color: #e1cdcd;
+  background-color: #fdf9f9;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 50px;
@@ -306,7 +306,7 @@ nav-content h1 {
 
 /*-- sound effects --*/
 .sounds {
-  background-color: #e1cdcd;
+  background-color: #fdf9f9;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -318,10 +318,10 @@ nav-content h1 {
 }
 
 .btn {
-  background-color: #1850aa;
+  background-color: #e70e0e;
   border-radius: 5px;
   border: none;
-  color: #e1cdcd;
+  color: #fdf9f9;
   margin: 5px;
   padding: 5px;
   font-size: 1rem;
